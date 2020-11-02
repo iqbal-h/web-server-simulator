@@ -17,12 +17,19 @@ Sample execution command is:$ python3 webserver.py -l 0.25 -Kc 40 -Ki 30 -C 1000
 usage: webserver.py [-h] -l  -Kc  -Ki  -C  -L  -M
 
 optional arguments:
+
   -h, --help          show this help message and exit
+
   -l , --Lambda       the parameter λ of the distribution of interarrival times
+  
   -Kc , --CPU_Queue   the number K of customers that the CPU queue may hold
+  
   -Ki , --IO_Queue    the number K of customers that the I/O queue may hold
+  
   -C , --Customers    the number C of customers served before the program terminates
+  
   -L , --L            an integer L such that L = 0 (runs service disciplines), L>0 (runs web server)
+  
   -M , --mode         1 – FCFS, 2 – LCFS-NP, 3 – SJF-NP, 4 – Prio-NP, 5 – Prio-P
 
 

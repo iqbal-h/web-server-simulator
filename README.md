@@ -1,4 +1,4 @@
-# Web server simulator
+# Web Server Simulator
 ## REQUIREMENTS:
 
 - To run webserver.py, python version 3.5 or above is required.

@@ -25,7 +25,7 @@ import argparse
 
 
 # Parsing command line arguments
-parser = argparse.ArgumentParser(description="Project 2")
+parser = argparse.ArgumentParser(description="Web server")
 parser.add_argument('-l', '--Lambda', 		type=float, metavar='', required=True, help='the parameter λ of the distribution of interarrival times')
 parser.add_argument('-Kc', '--CPU_Queue', 		type=int, 	metavar='', required=True, help='the number K of customers that the CPU queue may hold')
 parser.add_argument('-Ki', '--IO_Queue', 		type=int, 	metavar='', required=True, help='the number K of customers that the I/O queue may hold')
